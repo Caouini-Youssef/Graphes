@@ -124,7 +124,7 @@ namespace  {
                 min_iter = iter;
             }
         }
-        std::erase(open_list,min_iter.base() - my_vector.begin().base());
+        //std::erase(open_list,min_iter.base() - my_vector.begin().base());
         cout << min_iter.base() - my_vector.begin().base() << " / " << *min_iter << endl;
         return 2;
     }
