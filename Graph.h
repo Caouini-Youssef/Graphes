@@ -24,6 +24,9 @@ public:
     void open_matrix();
     void non_oriented();
     Graph power(int pow);
+    void clique_search();
+    void greedy_color();
+    void edge_coloring();
 };
 
 
